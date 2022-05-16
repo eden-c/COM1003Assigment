@@ -65,9 +65,12 @@ public class Assignment {
 		DataLoader dataLoader = new DataLoader();
 		Collection<Participant> participants = dataLoader.loadAllParticipants(dataFolder);
 
+		// Run the fitness questions
+
 		// Questions
 		FitnessQuestions questions = new FitnessQuestions(participants);
 		System.out.println(questions.toString());
+
 
 		// GUI
 //		JFrame explorerGUI = new GUIFrame(participants);

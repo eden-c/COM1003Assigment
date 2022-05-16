@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>assignment2021.codeprovided</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">assignment2021.codeprovided.handoutquestions.AbstractFitnessQuestions</node>
+    <node x="1297.0" y="1082.0">assignment2021.codeprovided.gui.BasicGUIPlotPanel</node>
+    <node x="429.0" y="283.0">assignment2021.codeprovided.fitnesstracker.measurements.EnergyExpenditure</node>
+    <node x="409.0" y="1082.0">assignment2021.codeprovided.dataloading.AbstractDataLoader</node>
+    <node x="805.0" y="1082.0">assignment2021.codeprovided.fitnesstracker.measurements.MeasurementFactory</node>
+    <node x="1129.0" y="650.0">assignment2021.codeprovided.gui.AbstractGUIPanel</node>
+    <node x="312.0" y="1248.0">assignment2021.codeprovided.dataloading.DataParsingException</node>
+    <node x="1311.0" y="283.0">assignment2021.codeprovided.fitnesstracker.measurements.HeartRate</node>
+    <node x="0.0" y="1248.0">assignment2021.codeprovided.gui.GUIFrame</node>
+    <node x="0.0" y="650.0">assignment2021.codeprovided.fitnesstracker.Participant</node>
+    <node x="0.0" y="1082.0">assignment2021.codeprovided.fitnesstracker.measurements.MeasurementType</node>
+    <node x="723.0" y="283.0">assignment2021.codeprovided.fitnesstracker.measurements.Steps</node>
+    <node x="1017.0" y="283.0">assignment2021.codeprovided.fitnesstracker.measurements.Distance</node>
+    <node x="602.0" y="650.0">assignment2021.codeprovided.fitnesstracker.Tracker</node>
+    <node x="674.5" y="0.0">assignment2021.codeprovided.fitnesstracker.measurements.Measurement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assignment2021.codeprovided.fitnesstracker.measurements.HeartRate" target="assignment2021.codeprovided.fitnesstracker.measurements.Measurement" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="1448.0" y="258.0" />
+      <point x="1007.0" y="258.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="assignment2021.codeprovided.fitnesstracker.measurements.EnergyExpenditure" target="assignment2021.codeprovided.fitnesstracker.measurements.Measurement" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="566.0" y="258.0" />
+      <point x="1007.0" y="258.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="assignment2021.codeprovided.fitnesstracker.measurements.Steps" target="assignment2021.codeprovided.fitnesstracker.measurements.Measurement" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="860.0" y="258.0" />
+      <point x="1007.0" y="258.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="assignment2021.codeprovided.fitnesstracker.measurements.Distance" target="assignment2021.codeprovided.fitnesstracker.measurements.Measurement" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="1154.0" y="258.0" />
+      <point x="1007.0" y="258.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.2717638152914459" showDependencies="false" x="792.5" y="650.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

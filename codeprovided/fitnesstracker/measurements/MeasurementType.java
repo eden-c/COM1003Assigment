@@ -9,8 +9,7 @@ public enum MeasurementType {
 	DISTANCE("Distance"), 
 	HEART_RATE("Heart Rate"),
 	STEPS("Steps"),
-	ENERGY_EXPENDITURE("Energy expenditure")
-	;
+	ENERGY_EXPENDITURE("Energy expenditure");
 
 	private String measurementName;
 
